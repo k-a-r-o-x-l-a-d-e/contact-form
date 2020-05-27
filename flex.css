@@ -1,0 +1,26 @@
+@media only screen and (max-width: 900px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.story{
+    margin-bottom: 1rem;
+}
+.story:last-child{
+margin-bottom: 0;
+}
+.header{
+    text-align: center; 
+}
+.footer ul{
+    padding: 0;
+    list-style: none;
+    
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}

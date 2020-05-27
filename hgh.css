@@ -1,0 +1,55 @@
+/* @media(main-width:441px){
+} */
+
+.container{
+    background-color: #89a3af;
+    margin-left: 323px;
+    /* display: flex; */
+   
+}
+.header{
+    font-size: 30px;
+    padding-bottom: 22px;
+}
+html{
+    /*this is the colour for the left info div background-color: #89a3af; */
+    background-color: #89a3af;
+}
+.acme{
+    color: whitesmoke;
+    width: 100%;
+   
+}
+.box_cont{
+    display: flex;
+    width: 65%;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    height: 80%;
+   
+}
+#awd1{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 21px;
+    padding: 25px;
+}
+#awd2{
+    padding: 25px;
+    /* font size:; */
+}
+.left_info_cont{
+    width: 30%;
+   
+    border: 1px solid black;
+    height: 100%;
+    background-color: #78a9c0;
+}
+.right_info_cont{
+    display: flex;
+    flex-direction :column;
+}
+/* .form_cont{
+    display: flex; 
+     flex-wrap: wrap;
+} */
